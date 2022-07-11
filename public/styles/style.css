@@ -22,22 +22,25 @@ h1,h2,nav{
     size: 20px;
 }
 .parr-about{
+    padding: 50px 0px 0px 50px;
+    content: normal;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 30px 150px 30px 150px;
     text-align: center;
-    width: 700px;
-    height: 400px;
     text-size-adjust:initial;
 }
-
-.row{
-    height: 600px;
+.grey{
+    background-color: lightgrey;
+}
+.row-2{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: left;
 }
+
 .img{
     margin: 0px;
     display: flex;
@@ -57,4 +60,7 @@ h1,h2,nav{
 .img-carrusel{
     width: 100%;
     height: 700px;
+}
+#not-found{
+    text-align: center;
 }
